@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-9.4.0_8b8b803e94919aeea738fc370b2c0c1d7e3742fb.jar" />
+    </item>
+    <item
+        jar="C:\Users\nipun\.gradle\caches\modules-2\files-2.1\com.android.support.constraint\constraint-layout-solver\1.0.2\b9cd8fc6bd15cb915735d34535db30ece0c44603\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_dbb4208bb3d83423264d9d0be52aebf98f3ac6ca.jar" />
+    </item>
+    <item
+        jar="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.4.0_609dd592bfeadcf9898628ba0c80238a2ed70562.jar" />
+    </item>
+    <item
+        jar="C:\Users\nipun\.gradle\caches\modules-2\files-2.1\junit\junit\4.12\2973d150c0dc1fefe998f834810d68f278ea58ec\junit-4.12.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
+        <dex dex="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\pre-dexed\debug\junit-4.12_0da0f506ebb7baa6b7a27efd2fd6787fdbc85d10.jar" />
+    </item>
+    <item
+        jar="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\libs\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\pre-dexed\debug\gson-2.2.4_98224b14bc9c5e14cd67e9a33a625309bcdf01f2.jar" />
+    </item>
+    <item
+        jar="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.3.1_1be35db4caf1920dfa9eafec11243a6b0025b5ea.jar" />
+    </item>
+    <item
+        jar="C:\Users\nipun\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\25.3.1\bf8841d29fa39e077730e7a91222c2ce269fa7c9\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_235f6267debc87c7009cd70c9dab80ebf6a13d8a.jar" />
+    </item>
+    <item
+        jar="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\libs\KGJsonConverter.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="cea743dc2e193922f7e7dc34858ef15b00afc6db">
+        <dex dex="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\pre-dexed\debug\KGJsonConverter_fddfe128d65ed13efb5daa52806337c12ea2d2ec.jar" />
+    </item>
+    <item
+        jar="C:\Users\nipun\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\pre-dexed\debug\hamcrest-core-1.3_7ac47c63523fb3af3601fe510548de2c2f4ef069.jar" />
+    </item>
+    <item
+        jar="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.3.1_3bcb68e655b154e57462b56ef46f0c3ebfe4fe03.jar" />
+    </item>
+    <item
+        jar="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\pre-dexed\debug\com.android.support.constraint-constraint-layout-1.0.2_6c0a30c74ee38f4f3ea5ba1edecb2c6d23d14397.jar" />
+    </item>
+    <item
+        jar="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.3.1_1119bf6c6ae59f812e2c18d4b2389c1796389c00.jar" />
+    </item>
+    <item
+        jar="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\exploded-aar\com.github.amigold.fundapter\library\1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="12e67307b10da7aad1bd09af41f281a2fed08d96">
+        <dex dex="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\pre-dexed\debug\com.github.amigold.fundapter-library-1.0_c54c2bdbd9c6bee17c7af51099b1841016a0a0ee.jar" />
+    </item>
+    <item
+        jar="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\exploded-aar\com.rom4ek\arcnavigationview\1.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="c303cd985b36079044f1533d8d7d0e48e3978024">
+        <dex dex="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\pre-dexed\debug\com.rom4ek-arcnavigationview-1.0.3_91f654fe402479236f6bec3c28876e8ae473d548.jar" />
+    </item>
+    <item
+        jar="C:\Users\nipun\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\pre-dexed\debug\glide-3.7.0_334090586cddd9740a2497968150c68368640bd1.jar" />
+    </item>
+    <item
+        jar="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.3.1_dad8ce816a181ef76026139a8eb50acafa5f7daa.jar" />
+    </item>
+    <item
+        jar="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.3.1_d7402cbab63a0b28add2511df6a7a011f6e02584.jar" />
+    </item>
+    <item
+        jar="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.3.1_2d70026481600d4a98c7a76c2aac34ce5e5f2cda.jar" />
+    </item>
+    <item
+        jar="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.4.0_8936d4f4c6391e8ac3fc025de5945da2dea7ac61.jar" />
+    </item>
+    <item
+        jar="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\pre-dexed\debug\com.android.volley-volley-1.0.0_d88a53c5b7e6273b8e002de50166685d5e4e8c4b.jar" />
+    </item>
+    <item
+        jar="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.3.1_6846864b1fab7c20c18b60150b9aa36b505563f0.jar" />
+    </item>
+    <item
+        jar="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.3.1_a5ac0916ddc7573b4656325cdf189599cca771a8.jar" />
+    </item>
+    <item
+        jar="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.3.1_648096469c2a942fafe19fd71ca630c5fa0078ed.jar" />
+    </item>
+    <item
+        jar="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.3.1_edcf8564af41e9086e2f11c3e7288dd0c7aaefea.jar" />
+    </item>
+    <item
+        jar="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-25.3.1_109c4d50cdf7af44da659ce955a99b7580ab3f7b.jar" />
+    </item>
+    <item
+        jar="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.3.1_4eb27137939d64d6f781d95583f7a76422f75623.jar" />
+    </item>
+    <item
+        jar="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\exploded-aar\com.android.support\transition\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.3.1_87f6116c5653af84be70aec20f94e30b87765107.jar" />
+    </item>
+    <item
+        jar="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-messaging-9.4.0_0137e929cbedd2768be5d7a73f68e9e98231af5f.jar" />
+    </item>
+    <item
+        jar="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-9.4.0_48a95356738d3423f12fb615d59169aa421c50d1.jar" />
+    </item>
+    <item
+        jar="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-9.4.0_4a842e6832046f5832c5a35f23fd0a63e956073c.jar" />
+    </item>
+    <item
+        jar="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-9.4.0_13cb8319d3bf2193c2dd035f0eec86ddc8882e62.jar" />
+    </item>
+
+</items>

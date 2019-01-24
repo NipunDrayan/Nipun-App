@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/register"
+    android:id="@+id/rl1">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/AppTheme"
+        />
+
+
+    <!--
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        </android.support.design.widget.AppBarLayout>
+    -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/my_toolbar">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_below="@+id/my_toolbar"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp"
+            android:weightSum="1"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="User Registration"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:background="@drawable/button"
+                android:layout_margin="10dp"
+                android:textSize="20dp"
+                />
+            <Space
+                android:layout_width="303dp"
+                android:layout_height="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="17dp" />
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/AppThemeContact">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/etname"
+                    android:hint="Full Name"
+                    android:background="@drawable/round"
+                    android:drawableLeft="@drawable/ic_contacts_black_24dp"
+
+                    android:textColor="@color/colorPrimaryDark" />
+            </android.support.design.widget.TextInputLayout>
+            <Space
+                android:layout_width="303dp"
+                android:layout_height="2dp"
+
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp" />
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/input_layout_year"
+                android:theme="@style/AppThemeContact">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/etYear"
+                    android:hint="Year"
+                    android:background="@drawable/round"
+                    android:drawableLeft="@drawable/ic_date_range_black_24dp"
+
+                    android:textColor="@color/colorPrimaryDark" />
+            </android.support.design.widget.TextInputLayout>
+            <Space
+                android:layout_width="303dp"
+                android:layout_height="2dp"
+                android:layout_alignParentTop="true"
+
+                android:layout_marginTop="10dp" />
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/input_layout_branch"
+                android:theme="@style/AppThemeContact">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/etBranch"
+                    android:hint="Branch"
+                    android:background="@drawable/round"
+                    android:drawableLeft="@drawable/ic_equalizer_black_24dp"
+
+                    android:textColor="@color/colorPrimaryDark" />
+            </android.support.design.widget.TextInputLayout>
+            <Space
+                android:layout_width="303dp"
+                android:layout_height="2dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp" />
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/input_layout_roll"
+                android:background="@drawable/round"
+                android:theme="@style/AppThemeContact">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/etUnivRNr"
+                    android:hint="University Roll Number"
+                    android:background="@drawable/round"
+                    android:drawableLeft="@drawable/ic_error_black_24dp"
+
+                    android:textColor="@color/colorPrimaryDark" />
+            </android.support.design.widget.TextInputLayout>
+            <Space
+                android:layout_width="303dp"
+                android:layout_height="2dp"
+
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp" />
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/input_layout_mobile"
+                android:theme="@style/AppThemeContact"
+                android:background="@drawable/round">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/etMobNo"
+                    android:hint="Mobile Number"
+                    android:background="@drawable/round"
+                    android:drawableLeft="@drawable/ic_stay_primary_portrait_black_24dp"
+
+                    android:textColor="@color/colorPrimaryDark"
+                    />
+            </android.support.design.widget.TextInputLayout>
+            <Space
+                android:layout_width="303dp"
+                android:layout_height="2dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp" />
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/input_layout_college"
+                android:theme="@style/AppThemeContact">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/etCollege"
+                    android:hint="College"
+                    android:background="@drawable/round"
+                    android:drawableLeft="@drawable/ic_account_balance_black_24dp"
+                    android:textColor="@color/colorPrimaryDark" />
+            </android.support.design.widget.TextInputLayout>
+            <Space
+                android:layout_width="303dp"
+                android:layout_height="2dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp" />
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/input_layout_campus"
+                android:theme="@style/AppThemeContact">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/etCampusAmbId"
+                    android:background="@drawable/round"
+                    android:hint="Campus Ambassdor ID"
+                    android:drawableLeft="@drawable/ic_error_black_24dp"
+
+                    android:textColor="@color/colorPrimaryDark" />
+            </android.support.design.widget.TextInputLayout>
+            <Space
+                android:layout_width="303dp"
+                android:layout_height="2dp"
+
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp" />
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/input_layout_email"
+                android:theme="@style/AppThemeContact">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/etEmail"
+                    android:hint="Email"
+                    android:background="@drawable/round"
+                    android:inputType="textEmailAddress"
+                    android:drawableLeft="@drawable/ic_mail_outline_black_24dp"
+
+                    android:textColor="@color/colorPrimaryDark" />
+            </android.support.design.widget.TextInputLayout>
+            <Space
+                android:layout_width="303dp"
+                android:layout_height="2dp"
+
+                android:layout_alignParentTop="true"
+
+                android:layout_marginTop="10dp" />
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/input_layout_password"
+                android:theme="@style/AppThemeContact">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/etPassword"
+                    android:hint="Password"
+                    android:background="@drawable/round"
+                    android:drawableLeft="@drawable/ic_lock_black_24dp"
+                    android:inputType="textPassword"
+                    android:textColor="@color/colorPrimaryDark" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/signupid"
+                android:textColor="#FFFFFF"
+                android:text="Sign Up"
+                android:textStyle="bold"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/button" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+
+
+
+</RelativeLayout>
+

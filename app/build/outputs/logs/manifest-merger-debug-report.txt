@@ -1,0 +1,471 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:2:1-93:12
+INJECTED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:2:1-93:12
+INJECTED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:2:1-93:12
+INJECTED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:2:1-93:12
+MERGED from [com.rom4ek:arcnavigationview:1.0.3] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\arcnavigationview-1.0.3.aar\31fb7bc8f7798bc6a8e6a563fc2be66e\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:design:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\53430795c1d6a46afd51c1c29dcce7ac\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\d9ba18142e3c65cb4921081683db8784\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\f980ad2051ca5017beb945581f2ac89a\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-messaging:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-messaging-9.4.0.aar\d36c49b7d324d75089dd9ce057e69564\AndroidManifest.xml:16:1-33:12
+MERGED from [com.google.firebase:firebase-core:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-core-9.4.0.aar\4afa843f16e3c0b01d3868b6045537ca\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.4.0.aar\2f4044eefbc9810bb7a9ff5777a5698c\AndroidManifest.xml:16:1-42:12
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-9.4.0.aar\e685f2657ce91254333db1ef727352b3\AndroidManifest.xml:16:1-42:12
+MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:16:1-60:12
+MERGED from [com.google.firebase:firebase-common:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-common-9.4.0.aar\95e4de898e7fc7508688a05d6bf1e6a6\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.4.0.aar\b0a948e5281efc2d2918ad6b03c5d30b\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.4.0.aar\13366ae68db24a401d35c3a95bb58b0b\AndroidManifest.xml:16:1-26:12
+MERGED from [com.android.support:transition:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\7d050e46b0a0212227dda57af683e597\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\146ff54e317639d9564311026ef6e817\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\0e54a84a2d324f0bd6559aca01bcc92f\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\22429a30f877dcc524ca4ef0e886026f\AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.3.1.aar\8ebbdf15f50512a7cf93b6a1f513f282\AndroidManifest.xml:17:1-28:12
+MERGED from [com.github.amigold.fundapter:library:1.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\library-1.0.aar\e1aef34d697a1d183ef669bcc6d4e7c5\AndroidManifest.xml:1:1-9:12
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\e2a979cbc655c54492fa3114b74d2e1c\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\06beb880ef86329087afd6b6b37e57e9\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\a0490b0f8be01a4c4f76be8e894ae7d3\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\689993416a51c1fb4e23b988e15fa9bf\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\158af0fec4901053ec75604f5bf1f048\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\a8ceb2680486c848dd4f06e78eff0052\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\f023fb47c97706d9bb8d65da23f74dee\AndroidManifest.xml:17:1-31:12
+INJECTED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:2:1-93:12
+INJECTED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:2:1-93:12
+INJECTED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:2:1-93:12
+	package
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:4:5-44
+		INJECTED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:2:1-93:12
+		INJECTED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:2:1-93:12
+		INJECTED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.4.0.aar\2f4044eefbc9810bb7a9ff5777a5698c\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.4.0.aar\2f4044eefbc9810bb7a9ff5777a5698c\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-9.4.0.aar\e685f2657ce91254333db1ef727352b3\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-9.4.0.aar\e685f2657ce91254333db1ef727352b3\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:8:22-63
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:9:5-71
+	android:name
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:9:22-68
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:10:5-68
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.4.0.aar\2f4044eefbc9810bb7a9ff5777a5698c\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.4.0.aar\2f4044eefbc9810bb7a9ff5777a5698c\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-9.4.0.aar\e685f2657ce91254333db1ef727352b3\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-9.4.0.aar\e685f2657ce91254333db1ef727352b3\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:22:5-68
+MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:10:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:11:5-82
+MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:23:5-82
+MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:11:22-79
+permission#com.example.android.endeavour.permission.C2D_MESSAGE
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:13:5-15:47
+MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:25:5-26:47
+	android:protectionLevel
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:15:9-44
+	android:name
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:14:9-76
+uses-permission#com.example.android.endeavour.permission.C2D_MESSAGE
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:17:5-92
+MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:17:22-89
+application
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:19:5-91:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\53430795c1d6a46afd51c1c29dcce7ac\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\53430795c1d6a46afd51c1c29dcce7ac\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\d9ba18142e3c65cb4921081683db8784\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\d9ba18142e3c65cb4921081683db8784\AndroidManifest.xml:29:5-20
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\f980ad2051ca5017beb945581f2ac89a\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\f980ad2051ca5017beb945581f2ac89a\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-messaging:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-messaging-9.4.0.aar\d36c49b7d324d75089dd9ce057e69564\AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.firebase:firebase-messaging:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-messaging-9.4.0.aar\d36c49b7d324d75089dd9ce057e69564\AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.firebase:firebase-core:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-core-9.4.0.aar\4afa843f16e3c0b01d3868b6045537ca\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-core-9.4.0.aar\4afa843f16e3c0b01d3868b6045537ca\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.4.0.aar\2f4044eefbc9810bb7a9ff5777a5698c\AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.4.0.aar\2f4044eefbc9810bb7a9ff5777a5698c\AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-9.4.0.aar\e685f2657ce91254333db1ef727352b3\AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-9.4.0.aar\e685f2657ce91254333db1ef727352b3\AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-common:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-common-9.4.0.aar\95e4de898e7fc7508688a05d6bf1e6a6\AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.firebase:firebase-common:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-common-9.4.0.aar\95e4de898e7fc7508688a05d6bf1e6a6\AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.4.0.aar\b0a948e5281efc2d2918ad6b03c5d30b\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.4.0.aar\b0a948e5281efc2d2918ad6b03c5d30b\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.4.0.aar\13366ae68db24a401d35c3a95bb58b0b\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.4.0.aar\13366ae68db24a401d35c3a95bb58b0b\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:transition:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\7d050e46b0a0212227dda57af683e597\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\7d050e46b0a0212227dda57af683e597\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\146ff54e317639d9564311026ef6e817\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\146ff54e317639d9564311026ef6e817\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\0e54a84a2d324f0bd6559aca01bcc92f\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\0e54a84a2d324f0bd6559aca01bcc92f\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.3.1.aar\8ebbdf15f50512a7cf93b6a1f513f282\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.3.1.aar\8ebbdf15f50512a7cf93b6a1f513f282\AndroidManifest.xml:26:5-20
+MERGED from [com.github.amigold.fundapter:library:1.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\library-1.0.aar\e1aef34d697a1d183ef669bcc6d4e7c5\AndroidManifest.xml:5:5-7:19
+MERGED from [com.github.amigold.fundapter:library:1.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\library-1.0.aar\e1aef34d697a1d183ef669bcc6d4e7c5\AndroidManifest.xml:5:5-7:19
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\e2a979cbc655c54492fa3114b74d2e1c\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\e2a979cbc655c54492fa3114b74d2e1c\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\06beb880ef86329087afd6b6b37e57e9\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\06beb880ef86329087afd6b6b37e57e9\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\a0490b0f8be01a4c4f76be8e894ae7d3\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\a0490b0f8be01a4c4f76be8e894ae7d3\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\689993416a51c1fb4e23b988e15fa9bf\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\689993416a51c1fb4e23b988e15fa9bf\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\158af0fec4901053ec75604f5bf1f048\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\158af0fec4901053ec75604f5bf1f048\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\a8ceb2680486c848dd4f06e78eff0052\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\a8ceb2680486c848dd4f06e78eff0052\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\f023fb47c97706d9bb8d65da23f74dee\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\f023fb47c97706d9bb8d65da23f74dee\AndroidManifest.xml:29:5-20
+	android:supportsRtl
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:25:9-35
+	android:label
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:23:9-41
+	android:hardwareAccelerated
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:21:9-44
+	android:largeHeap
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:24:9-33
+	android:icon
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:22:9-39
+		REJECTED from [com.github.amigold.fundapter:library:1.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\library-1.0.aar\e1aef34d697a1d183ef669bcc6d4e7c5\AndroidManifest.xml:5:45-81
+	android:allowBackup
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:20:9-35
+	android:theme
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:26:9-65
+	tools:replace
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:27:9-37
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:28:9-30:69
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.4.0.aar\13366ae68db24a401d35c3a95bb58b0b\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.4.0.aar\13366ae68db24a401d35c3a95bb58b0b\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:30:13-66
+	android:name
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:29:13-58
+activity#com.example.android.endeavour.splash
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:33:9-43:20
+	android:screenOrientation
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:36:13-49
+	android:label
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:35:13-45
+	android:theme
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:37:13-66
+	android:name
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:34:13-35
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:38:13-42:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:39:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:41:17-77
+	android:name
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:41:27-74
+service#com.example.android.endeavour.MyFirebaseMessagingService
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:46:9-50:19
+	android:name
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:46:18-60
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:47:13-49:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:48:17-78
+	android:name
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:48:25-75
+service#com.example.android.endeavour.MyFirebaseInstanceIdService
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:51:9-55:19
+	android:name
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:51:18-61
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:52:13-54:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:53:17-80
+	android:name
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:53:25-77
+activity#com.example.android.endeavour.MainActivity
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:61:9-63:48
+	android:label
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:63:13-45
+	android:name
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:62:13-41
+activity#com.example.android.endeavour.Notifications
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:65:9-79:20
+	android:parentActivityName
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:68:13-55
+	android:label
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:67:13-57
+	android:name
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:66:13-42
+intent-filter#action:name:com.example.android.endeavour.Notifications+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:70:13-73:29
+action#com.example.android.endeavour.Notifications
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:71:17-86
+	android:name
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:71:25-83
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:72:17-76
+	android:name
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:72:27-73
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:76:13-78:78
+	android:value
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:78:17-75
+	android:name
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:77:17-63
+activity#com.example.android.endeavour.RegisterActivity
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:80:9-54
+	android:name
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:80:19-51
+activity#com.example.android.endeavour.loginActivity
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:81:9-51
+	android:name
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:81:19-48
+activity#com.example.android.endeavour.splash2
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:82:9-45
+	android:name
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:82:19-42
+activity#com.example.android.endeavour.TabMainActivity
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:83:9-53
+	android:name
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:83:19-50
+activity#com.example.android.endeavour.TedtalkMainActivity
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:84:9-57
+	android:name
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:84:19-54
+activity#com.example.android.endeavour.Main2Activity
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:85:9-51
+	android:name
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:85:19-48
+activity#com.example.android.endeavour.pop
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:86:9-41
+	android:name
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:86:19-38
+activity#com.example.android.endeavour.corporateActivity1
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:87:9-56
+	android:name
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:87:19-53
+activity#com.example.android.endeavour.hackathonActivity1
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:88:9-56
+	android:name
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:88:19-53
+activity#com.example.android.endeavour.MainNotificationActivity
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:89:9-62
+	android:name
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:89:19-59
+activity#com.example.android.endeavour.TalkActivity
+ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:90:9-59
+	android:name
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml:90:19-47
+uses-sdk
+INJECTED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml
+MERGED from [com.rom4ek:arcnavigationview:1.0.3] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\arcnavigationview-1.0.3.aar\31fb7bc8f7798bc6a8e6a563fc2be66e\AndroidManifest.xml:8:5-10:41
+MERGED from [com.rom4ek:arcnavigationview:1.0.3] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\arcnavigationview-1.0.3.aar\31fb7bc8f7798bc6a8e6a563fc2be66e\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\53430795c1d6a46afd51c1c29dcce7ac\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\53430795c1d6a46afd51c1c29dcce7ac\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\d9ba18142e3c65cb4921081683db8784\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\d9ba18142e3c65cb4921081683db8784\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\f980ad2051ca5017beb945581f2ac89a\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\f980ad2051ca5017beb945581f2ac89a\AndroidManifest.xml:7:5-43
+MERGED from [com.google.firebase:firebase-messaging:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-messaging-9.4.0.aar\d36c49b7d324d75089dd9ce057e69564\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-messaging:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-messaging-9.4.0.aar\d36c49b7d324d75089dd9ce057e69564\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-core:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-core-9.4.0.aar\4afa843f16e3c0b01d3868b6045537ca\AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-core:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-core-9.4.0.aar\4afa843f16e3c0b01d3868b6045537ca\AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.4.0.aar\2f4044eefbc9810bb7a9ff5777a5698c\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.4.0.aar\2f4044eefbc9810bb7a9ff5777a5698c\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-9.4.0.aar\e685f2657ce91254333db1ef727352b3\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-9.4.0.aar\e685f2657ce91254333db1ef727352b3\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-common:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-common-9.4.0.aar\95e4de898e7fc7508688a05d6bf1e6a6\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-common-9.4.0.aar\95e4de898e7fc7508688a05d6bf1e6a6\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.4.0.aar\b0a948e5281efc2d2918ad6b03c5d30b\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.4.0.aar\b0a948e5281efc2d2918ad6b03c5d30b\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.4.0.aar\13366ae68db24a401d35c3a95bb58b0b\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.4.0.aar\13366ae68db24a401d35c3a95bb58b0b\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:transition:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\7d050e46b0a0212227dda57af683e597\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\7d050e46b0a0212227dda57af683e597\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\146ff54e317639d9564311026ef6e817\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\146ff54e317639d9564311026ef6e817\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\0e54a84a2d324f0bd6559aca01bcc92f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\0e54a84a2d324f0bd6559aca01bcc92f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\22429a30f877dcc524ca4ef0e886026f\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\22429a30f877dcc524ca4ef0e886026f\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.3.1.aar\8ebbdf15f50512a7cf93b6a1f513f282\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.3.1.aar\8ebbdf15f50512a7cf93b6a1f513f282\AndroidManifest.xml:20:5-43
+MERGED from [com.github.amigold.fundapter:library:1.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\library-1.0.aar\e1aef34d697a1d183ef669bcc6d4e7c5\AndroidManifest.xml:3:5-72
+MERGED from [com.github.amigold.fundapter:library:1.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\library-1.0.aar\e1aef34d697a1d183ef669bcc6d4e7c5\AndroidManifest.xml:3:5-72
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\e2a979cbc655c54492fa3114b74d2e1c\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\e2a979cbc655c54492fa3114b74d2e1c\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\06beb880ef86329087afd6b6b37e57e9\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\06beb880ef86329087afd6b6b37e57e9\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\a0490b0f8be01a4c4f76be8e894ae7d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\a0490b0f8be01a4c4f76be8e894ae7d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\689993416a51c1fb4e23b988e15fa9bf\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\689993416a51c1fb4e23b988e15fa9bf\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\158af0fec4901053ec75604f5bf1f048\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\158af0fec4901053ec75604f5bf1f048\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\a8ceb2680486c848dd4f06e78eff0052\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\a8ceb2680486c848dd4f06e78eff0052\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\f023fb47c97706d9bb8d65da23f74dee\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\f023fb47c97706d9bb8d65da23f74dee\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\53430795c1d6a46afd51c1c29dcce7ac\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\53430795c1d6a46afd51c1c29dcce7ac\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\d9ba18142e3c65cb4921081683db8784\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\d9ba18142e3c65cb4921081683db8784\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\7d050e46b0a0212227dda57af683e597\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\7d050e46b0a0212227dda57af683e597\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\146ff54e317639d9564311026ef6e817\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\146ff54e317639d9564311026ef6e817\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\22429a30f877dcc524ca4ef0e886026f\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\22429a30f877dcc524ca4ef0e886026f\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.3.1.aar\8ebbdf15f50512a7cf93b6a1f513f282\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.3.1.aar\8ebbdf15f50512a7cf93b6a1f513f282\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\e2a979cbc655c54492fa3114b74d2e1c\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\e2a979cbc655c54492fa3114b74d2e1c\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\06beb880ef86329087afd6b6b37e57e9\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\06beb880ef86329087afd6b6b37e57e9\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\a0490b0f8be01a4c4f76be8e894ae7d3\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\a0490b0f8be01a4c4f76be8e894ae7d3\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\689993416a51c1fb4e23b988e15fa9bf\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\689993416a51c1fb4e23b988e15fa9bf\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\158af0fec4901053ec75604f5bf1f048\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\158af0fec4901053ec75604f5bf1f048\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\a8ceb2680486c848dd4f06e78eff0052\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\a8ceb2680486c848dd4f06e78eff0052\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\f023fb47c97706d9bb8d65da23f74dee\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\f023fb47c97706d9bb8d65da23f74dee\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\53430795c1d6a46afd51c1c29dcce7ac\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\53430795c1d6a46afd51c1c29dcce7ac\AndroidManifest.xml:26:9-47
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-messaging-9.4.0.aar\d36c49b7d324d75089dd9ce057e69564\AndroidManifest.xml:24:9-30:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-messaging-9.4.0.aar\d36c49b7d324d75089dd9ce057e69564\AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-messaging-9.4.0.aar\d36c49b7d324d75089dd9ce057e69564\AndroidManifest.xml:25:13-82
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.4.0.aar\2f4044eefbc9810bb7a9ff5777a5698c\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-9.4.0.aar\e685f2657ce91254333db1ef727352b3\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-9.4.0.aar\e685f2657ce91254333db1ef727352b3\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:20:5-79
+MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.4.0.aar\2f4044eefbc9810bb7a9ff5777a5698c\AndroidManifest.xml:22:22-76
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.4.0.aar\2f4044eefbc9810bb7a9ff5777a5698c\AndroidManifest.xml:28:7-34:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-9.4.0.aar\e685f2657ce91254333db1ef727352b3\AndroidManifest.xml:28:7-34:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-9.4.0.aar\e685f2657ce91254333db1ef727352b3\AndroidManifest.xml:28:7-34:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.4.0.aar\2f4044eefbc9810bb7a9ff5777a5698c\AndroidManifest.xml:30:11-33
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.4.0.aar\2f4044eefbc9810bb7a9ff5777a5698c\AndroidManifest.xml:29:11-83
+intent-filter#action:name:com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.4.0.aar\2f4044eefbc9810bb7a9ff5777a5698c\AndroidManifest.xml:31:9-33:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.4.0.aar\2f4044eefbc9810bb7a9ff5777a5698c\AndroidManifest.xml:32:11-77
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.4.0.aar\2f4044eefbc9810bb7a9ff5777a5698c\AndroidManifest.xml:32:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.4.0.aar\2f4044eefbc9810bb7a9ff5777a5698c\AndroidManifest.xml:36:7-39:37
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-9.4.0.aar\e685f2657ce91254333db1ef727352b3\AndroidManifest.xml:36:7-39:37
+MERGED from [com.google.firebase:firebase-analytics-impl:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-9.4.0.aar\e685f2657ce91254333db1ef727352b3\AndroidManifest.xml:36:7-39:37
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.4.0.aar\2f4044eefbc9810bb7a9ff5777a5698c\AndroidManifest.xml:38:11-33
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.4.0.aar\2f4044eefbc9810bb7a9ff5777a5698c\AndroidManifest.xml:39:11-35
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-analytics-9.4.0.aar\2f4044eefbc9810bb7a9ff5777a5698c\AndroidManifest.xml:37:11-82
+permission#${applicationId}.permission.C2D_MESSAGE
+MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:25:5-26:47
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+MERGED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:28:5-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:32:9-41:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:35:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:33:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+action:name:com.google.android.c2dm.intent.REGISTRATION+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:36:13-40:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+action:name:com.google.android.c2dm.intent.REGISTRATION+category:name:com.example.android.endeavour
+ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:36:13-40:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:37:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:37:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:38:17-86
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:38:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:39:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:39:27-58
+category#com.example.android.endeavour
+ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:39:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:39:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:46:13-86
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:51:9-57:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-iid-9.4.0.aar\b20fb836aa8ff5506387711bc18ee0af\AndroidManifest.xml:52:13-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-common-9.4.0.aar\95e4de898e7fc7508688a05d6bf1e6a6\AndroidManifest.xml:7:9-11:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-common-9.4.0.aar\95e4de898e7fc7508688a05d6bf1e6a6\AndroidManifest.xml:8:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-common-9.4.0.aar\95e4de898e7fc7508688a05d6bf1e6a6\AndroidManifest.xml:10:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-common-9.4.0.aar\95e4de898e7fc7508688a05d6bf1e6a6\AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.4.0] C:\Users\nipun\.gradle\caches\transforms-1\files-1.1\firebase-common-9.4.0.aar\95e4de898e7fc7508688a05d6bf1e6a6\AndroidManifest.xml:9:13-58

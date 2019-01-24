@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    tools:context="com.example.android.endeavour.hackathonActivity1"
+    android:background="@drawable/tryback7">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/AppTheme"
+        />
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/my_toolbar"
+        android:layout_above="@+id/hackathon_reg_id">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/st0"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:text="When solving problems, dig at the roots instead of just hacking at the leaves. \n We welcome you to the platform where the cogent coding ideas become reality.So grab this opportunity to shine above all."
+            android:textAlignment="center"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/st"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STRUCTURE"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textColor="#9400D3"/>
+
+        <TextView
+            android:id="@+id/st1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text=" Team size: Maximum 4 participants per  team. Minimum 2 Participants.
+                           1). Duration: 25hours (From 12:00hrs. on day 1 to 13:00 hrs. on day 2).Presentation Duration:  5-7 minutes. 3). Q-A duration: - 3-5 minutes"
+            android:paddingRight="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/textColorPrimary"/>
+
+
+        <TextView
+            android:id="@+id/rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RULES"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textColor="#9400D3"/>
+
+    <TextView
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Participants should maintain civil decorum throughout the event.
+                      2. All code/modules should be written and developed during the Hackathon.
+                      3. Event prizes are non-transferable.
+                      4. Participants should listen to all the directions given by the organising committee.
+                                                   5. It’s your responsibility to maintain co-ordination in the team.
+                                6. At the end of the event you must present/submit a working prototype/model.
+                                                              7. In case of any dispute, decision given by the judges will be final."
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/textColorPrimary"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/hackathon_reg_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@drawable/button"
+        android:text="Register"
+        android:textColor="@color/textColorPrimary"
+       />
+
+</RelativeLayout>

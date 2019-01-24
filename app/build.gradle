@@ -1,0 +1,56 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '28.0.3'
+
+    defaultConfig {
+        applicationId "com.example.android.endeavour"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+    }
+    repositories {
+        maven {
+            url 'https://maven.google.com'
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    // RecyclerView
+
+    // CardView
+    compile files('libs/gson-2.2.4.jar')
+    compile files('libs/KGJsonConverter.jar')
+
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.volley:volley:1.0.0'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support:support-v4:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.google.firebase:firebase-messaging:9.4.0'
+    compile 'com.google.firebase:firebase-core:9.4.0'
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'com.android.support:cardview-v7:25.3.1'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.github.amigold.fundapter:library:1.0'
+    compile 'com.rom4ek:arcnavigationview:1.0.3'
+    compile 'junit:junit:4.12'
+    //compile 'com.google.android.gms:play-services-ads:10.2.0'
+}
+
+// Add to the bottom of the file
+apply plugin: 'com.google.gms.google-services'

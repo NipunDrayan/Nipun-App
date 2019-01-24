@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">	#08233D</color>
+    <color name="colorPrimaryDark">#08233D</color>
+    <color name="colorAccent">#F44336</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="button_selectorcolor">#9E9E9E</color>
+    <color name="white_greyish">#EEEEEE</color>
+    <color name="white">#FFFFFF</color>
+    <color name="titles">#F44336</color>
+    <color name="cardview_initial_backg">#9E9E9E</color>
+    <color name="dot_dark_screen2">#ffd100</color>
+    <color name="horizontalLine">#F44336</color>
+    <color name="nwhite">#80FFFFFF</color>
+    <color name="try1">#880E4F</color>
+</resources>

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\nipun\\Downloads\\coa\\ENDEAVOUR\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mk\\values-mk.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\nipun\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.4.0.aar\\13366ae68db24a401d35c3a95bb58b0b\\res\\values-mk\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "331",
+                        "endColumns": "237",
+                        "endOffsets": "564"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "237",
+                        "endOffsets": "338"
+                    }
+                }
+            ]
+        }
+    ]
+}

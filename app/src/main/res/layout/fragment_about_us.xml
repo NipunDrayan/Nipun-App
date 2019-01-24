@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.endeavour.MainActivity"
+    android:background="@drawable/bck"
+    >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:paddingBottom="16dp"
+            android:background="@drawable/layout_background">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="16dp"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:text="About Us"
+                android:textColor="#F44336"
+                android:textStyle="bold"
+                android:id="@+id/abt"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@+id/abt"
+                android:paddingTop="24dp"
+                android:textStyle="bold"
+                android:id="@+id/first"
+                android:textColor="@color/colorPrimary"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:text="Endeavour is an annual Techno-Entrepreneurial Summit of KIET, Ghaziabad."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_below="@+id/first"
+                android:textSize="16dp"
+                android:id="@+id/txt"
+                android:paddingTop="10dp"
+                android:text="KIET's  First ever Inter-Collegiate Entrepreneurial Summit- Largest and First of its kind in the history of AKTU (formerly UPTU).
+The journey was initiated in 2015 with the aim to promote Entrepreneurship and develop the skills required to be an Entrepreneur among the students. ENDEAVOUR has witnessed four consecutive successful and huge seasons.
+After the four successive seasons of Endeavour, KIET e-cell is bringing a very new and unique version of Endeavour this year. Though the beginning is new, but the aim has now become wider and enormous. Endeavour'19 is one of the most anticipated and applauded Extravaganza of Team KIET e-Cell and is arriving on the floor on 23rd and 24th Feburary and this time with the urge to call attention to '#YOUTHOPRENEURSHIP' .
+Endeavour'19 is all set to witness the best minds in the country coming together to battle it out for the ultimate glory and win the impressive cash prizes. Apart from this guest lectures from eminent entrepreneurs and speakers have been organized pertaining to the world of management and technology.
+"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt"
+                android:layout_marginTop="24dp"
+                android:gravity="center">
+
+                <ImageButton
+                    android:background="#00000000"
+                    android:id="@+id/fb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/fb"
+                    />
+
+                <ImageButton
+                    android:layout_centerHorizontal="true"
+                    android:background="#00000000"
+                    android:id="@+id/insta"
+                    android:layout_toRightOf="@+id/fb"
+                    android:layout_marginLeft="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/insta"
+                    />
+
+
+                <ImageButton
+                    android:background="#00000000"
+                    android:layout_toRightOf="@+id/insta"
+                    android:layout_marginLeft="16dp"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/twitt"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/twitter"
+                    />
+
+                <ImageButton
+                    android:background="#00000000"
+                    android:layout_toRightOf="@+id/twitt"
+                    android:layout_marginLeft="16dp"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/you"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/youtube"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

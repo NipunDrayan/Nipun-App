@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="80dp"
+    >
+
+    <TextView
+        android:layout_width="150dp"
+        android:text="Event"
+        android:id="@+id/event"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textColor="@color/textColorPrimary"
+        android:layout_marginLeft="12dp"
+        android:layout_height="match_parent" />
+   <!-- <TextView
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:id="@+id/category"
+        android:text="Category"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/colorPrimaryDark"
+
+        android:layout_toRightOf="@+id/event"
+        />-->
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:id="@+id/paystatus"
+        android:text="Payment Status"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="3dp"
+        android:textStyle="bold"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:layout_toRightOf="@+id/event"
+        />
+
+
+</RelativeLayout>
