@@ -101,7 +101,7 @@ public class MyEvents extends Fragment implements Response.Listener<String>
                     String events = null;
                     if(item.eventid.equals("7"))
                     {
-                        events = "Startup Challenge";
+                        events = "Monopoly";
                     }
                     if(item.eventid.equals("2"))
                     {
@@ -127,14 +127,7 @@ public class MyEvents extends Fragment implements Response.Listener<String>
                     {
                         events = "Your Story";
                     }
-                   /* if(item.eventid.equals("9"))
-                    {
-                        events = "Your STOry videoo";
-                    }*/
-                    if(item.eventid.equals("10"))
-                    {
-                        events = "Art Of Conquest";
-                    }
+
                     if(item.eventid.equals("1"))
                     {
                         events = "Hackathon";

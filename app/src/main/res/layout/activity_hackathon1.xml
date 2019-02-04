@@ -11,7 +11,7 @@
         android:id="@+id/my_toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@color/colorPrimary"
+        android:background="@color/try1"
         android:elevation="4dp"
         android:theme="@style/AppTheme"
         />
@@ -29,15 +29,20 @@
         <TextView
             android:id="@+id/st0"
             android:layout_width="match_parent"
-            android:layout_height="135dp"
-            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:text="\t\twhile (alive)\n{\n wake_up_with_code();\n work_with_code();\n sleep_with_code();\n repeat ();\n }\n
+Is CODING your 21st Century Oxygen?
+If your answer pops up to a “YES” then this will surely capture your mind!
+If this is what you ought to do we bring to you an opportunity to grow as a coder, a designer, a developer, a creator and an entrepreneur of tomorrow. We present before you much awaited event for all those techno-entrepreneurs sitting there HACKATHON’18.
+Hackathon'18 is an occasion which unites best coders, engineers, originators, trend-setters, makers and business visionaries of tomorrow. It is prepared for the individuals who are energetic about building, outlining and improving. It is a 25 hr event where the devotees meet, create and contend in the product prototyping rivalry. The event will start on day 1, that is 16th March and will continue till day 2, that is 17th March. The participants may work on any of the themes be it Blockchain, AR/VR, Cloud Computing, ChatBots, Web/Mobile, Embedded system, Internet of Things(IOT), Machine learning/Deep learning, Artificial Intelligence and many others. We empower a wide range of thoughts, regardless of whether it is a proof of the idea, resembles works-like model or a simple prototype.
+So gear up buddies it’s time to brush up your coding skills and let your mind work faster than your thoughts!
+"
+            android:textStyle="bold|italic"
             android:layout_marginTop="15dp"
             android:layout_marginRight="10dp"
-            android:text="When solving problems, dig at the roots instead of just hacking at the leaves. \n We welcome you to the platform where the cogent coding ideas become reality.So grab this opportunity to shine above all."
-            android:textAlignment="center"
-            android:textColor="@color/textColorPrimary"
+            android:layout_marginLeft="10dp"
             android:textSize="18sp"
-            android:textStyle="bold|italic" />
+            android:textColor="@color/textColorPrimary"/>
 
         <TextView
             android:id="@+id/st"
@@ -48,7 +53,7 @@
             android:layout_marginTop="15dp"
             android:textAlignment="center"
             android:textSize="25sp"
-            android:textColor="#9400D3"/>
+            android:textColor="#880E4F"/>
 
         <TextView
             android:id="@+id/st1"
@@ -58,7 +63,9 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:text=" Team size: Maximum 4 participants per  team. Minimum 2 Participants.
-                           1). Duration: 25hours (From 12:00hrs. on day 1 to 13:00 hrs. on day 2).Presentation Duration:  5-7 minutes. 3). Q-A duration: - 3-5 minutes"
+                           1). Duration: 25hours (From 12:00hrs. on day 1 to 13:00 hrs. on day 2).
+                        \n 2)  Presentation Duration:  5-7 minutes.
+                        \n 3). Q-A duration: - 3-5 minutes\n"
             android:paddingRight="10dp"
             android:textSize="18sp"
             android:textColor="@color/textColorPrimary"/>
@@ -73,19 +80,19 @@
             android:layout_marginTop="15dp"
             android:textAlignment="center"
             android:textSize="25sp"
-            android:textColor="#9400D3"/>
+            android:textColor="#880E4F"/>
 
     <TextView
         android:id="@+id/rl1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="1. Participants should maintain civil decorum throughout the event.
-                      2. All code/modules should be written and developed during the Hackathon.
-                      3. Event prizes are non-transferable.
-                      4. Participants should listen to all the directions given by the organising committee.
-                                                   5. It’s your responsibility to maintain co-ordination in the team.
-                                6. At the end of the event you must present/submit a working prototype/model.
-                                                              7. In case of any dispute, decision given by the judges will be final."
+                      \n 2. All code/modules should be written and developed during the Hackathon.
+                      \n 3. Event prizes are non-transferable.
+                      \n 4. Participants should listen to all the directions given by the organising committee.
+                      \n 5. It’s your responsibility to maintain co-ordination in the team.
+                      \n 6. At the end of the event you must present/submit a working prototype/model.
+                      \n 7. In case of any dispute, decision given by the judges will be final."
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:textSize="18sp"

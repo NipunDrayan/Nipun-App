@@ -58,7 +58,8 @@ public class EventsFrag extends Fragment
         eventsList.add(
                 new TypeEvents(
                         3,
-                        "Hackathon", R.drawable.hackathon_white));
+                        "Hackathon", R.drawable.hack));
+
 
         //creating recyclerview adapter
         TypesEventAdapter adapter = new TypesEventAdapter(getActivity(), eventsList);

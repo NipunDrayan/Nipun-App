@@ -12,9 +12,7 @@ import com.android.volley.toolbox.DiskBasedCache;
 import com.android.volley.toolbox.HurlStack;
 import com.android.volley.toolbox.ImageLoader;
 
-/**
- * Created by manvi on 09-01-2018.
- */
+
 public class CustomVolleyRequest
 {
     private static CustomVolleyRequest customVolleyRequest;

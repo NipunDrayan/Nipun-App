@@ -1,8 +1,6 @@
 package com.example.android.endeavour;
 
-/**
- * Created by manvi on 04-01-2018.
- */
+
 public class TypeEvents
 {
 

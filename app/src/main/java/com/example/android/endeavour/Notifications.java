@@ -94,7 +94,7 @@ public class Notifications extends AppCompatActivity implements Response.Listene
             }
         });
 
-        String url = "http://endeavourkiet.in/app17/notification.php";
+        String url = "";
         progressDialog = new ProgressDialog(this);
         progressDialog.setMessage("Loading!!!");
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url, (Response.Listener<String>) this, new Response.ErrorListener() {

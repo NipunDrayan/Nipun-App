@@ -12,7 +12,7 @@ import java.util.Map;
  */
 public class EventRequest extends StringRequest
 {
-    static final String EVENT_REQUEST_URL = "http://endeavourkiet.in/app17/eventregister.php";
+    static final String EVENT_REQUEST_URL = "http://10.21.85.170:3000/apieventreg";
     private Map<String, String> params;
 
     public EventRequest(String userid,int eventid, String campus ,String mem1,String mem2,String mem3,Response.Listener<String> listener)
@@ -22,12 +22,15 @@ public class EventRequest extends StringRequest
         params = new HashMap<>();
         params.put("head_id", userid);
         // params.put("paystatus",pay+"");
-        params.put("mbrs",mem1+","+mem2+","+mem3);
-        params.put("campusId",campus);
-        params.put("eventid" , eventid+"");
-      //  params.put("mem2",mem2);
-     //   params.put("mem3",mem3);
-//        params.put("mem4",mem4+"");
+       params.put("mbrs",mem1+","+mem2+","+mem3);
+        params.put("caid",campus);
+        params.put("event" , eventid+"");
+
+      //params.put("mem1",mem1);
+
+      //params.put("mem2",mem2);
+
+    //params.put("mem3",mem3);
 
     }
 

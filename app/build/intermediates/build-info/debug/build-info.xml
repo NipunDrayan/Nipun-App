@@ -6,7 +6,7 @@
     density="420dpi"
     format="10"
     plugin-version="3.2.1"
-    timestamp="1548326840430"
+    timestamp="1549281579994"
     token="-8948458784885536181"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -23,19 +23,17 @@
         name="verifier"
         duration="0" />
 
+    <artifact
+        location="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+        type="SPLIT" />
+
     <build
         build-mode="FULL"
-        timestamp="1548246051559"
+        timestamp="1549277209170"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
-            type="SPLIT" />
         <artifact
             location="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
-        <artifact
-            location="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
         <artifact
             location="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
@@ -49,10 +47,10 @@
             location="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
@@ -66,52 +64,28 @@
         <artifact
             location="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1548246969054"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1548271686994"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1548272744285"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
+        timestamp="1549277917756"
+        verifier="FIELD_TYPE_CHANGE" >
         <artifact
             location="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1548326840430"
-        verifier="COLD_SWAP_REQUESTED" />
+        timestamp="1549281579994"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\nipun\Downloads\coa\ENDEAVOUR\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            type="SPLIT" />
+    </build>
 
 </instant-run>

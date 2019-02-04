@@ -9,9 +9,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by manvi on 05-01-2018.
- */
+
 public class FragFaq extends Fragment {
 
     public static FragFaq newInstance(int index) {

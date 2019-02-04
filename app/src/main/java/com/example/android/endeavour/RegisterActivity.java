@@ -113,11 +113,16 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     public static void hideSoftKeyboard(Activity activity) {
-        InputMethodManager inputMethodManager =
-                (InputMethodManager) activity.getSystemService(
-                        Activity.INPUT_METHOD_SERVICE);
-        inputMethodManager.hideSoftInputFromWindow(
-                activity.getCurrentFocus().getWindowToken(), 0);
+        //InputMethodManager inputMethodManager =
+          //      (InputMethodManager) activity.getSystemService(
+                       // Activity.INPUT_METHOD_SERVICE);
+        View view = activity.getCurrentFocus();
+        if (view != null) {
+            InputMethodManager imm = (InputMethodManager)activity.getSystemService(Context.INPUT_METHOD_SERVICE);
+            imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
+        }
+       // inputMethodManager.hideSoftInputFromWindow(
+         //       activity.getCurrentFocus().getWindowToken(), 0);
     }
     public void setupUI(View view)
     {
@@ -213,7 +218,7 @@ public class RegisterActivity extends AppCompatActivity {
             public void onResponse(String response) {
                 try {
                     JSONObject jsonResponse = new JSONObject(response);
-                    boolean success = jsonResponse.getBoolean("success");
+                    boolean success = jsonResponse.getBoolean("state");
 
                     if (success) {
                         finish();

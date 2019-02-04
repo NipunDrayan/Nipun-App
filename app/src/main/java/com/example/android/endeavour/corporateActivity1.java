@@ -65,45 +65,29 @@ public class corporateActivity1 extends AppCompatActivity
         corporateList.add(
                 new TypeCorporate(
                         1,
-                        "Startup Challenge","Rs.150/-",3000,R.drawable.startupchallenge1));
+                        "Monopoly","Rs.150/-",3000,R.drawable.icon_mono));
 
         corporateList.add(
                 new TypeCorporate(
                         2,
-                        "B-plan","Rs.300/-",3000,R.drawable.bplan));
+                        "B-plan","Rs.300/-",3000,R.drawable.planb));
 
         corporateList.add(
                 new TypeCorporate(
                         3,
-                        "B-Quiz","Fee:Rs.100/-",4000, R.drawable.b_noesis));
+                        "Q-fiesta","Rs.100/-",4000, R.drawable.fiesta));
 
         corporateList.add(
                 new TypeCorporate(
                         4,
-                        "BID IT!","Rs.300/-",7000, R.drawable.bidit));
+                        "Suicide Squad","Rs.300/-",7000, R.drawable.icon_suicide));
 
         corporateList.add(
                 new TypeCorporate(
                         5,
-                        "Maestro","Rs.200/-",2500, R.drawable.maestro));
+                        "Your Story","Rs.200/-",2500, R.drawable.your));
 
-        corporateList.add(
-                new TypeCorporate(
-                        6,
-                        "Dropout","Rs.150/-",2500, R.drawable.dropout));
 
-        corporateList.add(
-                new TypeCorporate(
-                        7,
-                        "Your Story Video","Rs.150/-",2500, R.drawable.urstory));//change icon
-        corporateList.add(
-                new TypeCorporate(
-                        8,
-                        "Your Story Photo","Rs.150/-",2500, R.drawable.urstory));//change icon
-        corporateList.add(
-                new TypeCorporate(
-                        9,
-                        "Art Of Conquest","Rs.250/-",2500, R.drawable.investment));//change icon
 
 
         //creating recyclerview adapter

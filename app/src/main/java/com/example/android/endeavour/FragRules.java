@@ -10,13 +10,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by manvi on 05-01-2018.
- */
 
-/**
- * Created by manvi on 05-01-2018.
- */
 public class FragRules extends Fragment {
 
     public static FragRules newInstance(int index) {

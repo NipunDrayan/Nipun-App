@@ -25,9 +25,9 @@
             android:layout_height="wrap_content"
             android:id="@+id/mem1"
             android:hint="Member Id 1"
-            android:drawableLeft="@drawable/name1"
+            android:drawableLeft="@drawable/ic_contacts_black_24dp"
 
-            android:textColor="@color/colorPrimaryDark" />
+            android:textColor="#9400D3"  />
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
@@ -40,9 +40,9 @@
             android:layout_height="wrap_content"
             android:id="@+id/mem2"
             android:hint="Member Id 2"
-            android:drawableLeft="@drawable/name1"
+            android:drawableLeft="@drawable/ic_contacts_black_24dp"
 
-            android:textColor="@color/colorPrimaryDark" />
+            android:textColor="#9400D3"  />
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
@@ -55,9 +55,9 @@
             android:layout_height="wrap_content"
             android:id="@+id/mem3"
             android:hint="Member Id 3"
-            android:drawableLeft="@drawable/name1"
+            android:drawableLeft="@drawable/ic_contacts_black_24dp"
 
-            android:textColor="@color/colorPrimaryDark" />
+            android:textColor="#9400D3" />
     </android.support.design.widget.TextInputLayout>
 
 <!--
@@ -79,17 +79,17 @@
     </LinearLayout>
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/submitid"
-        android:text="Submit"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:layout_marginTop="57dp"
-        android:textColor="@color/white"
-        android:background="@drawable/buttoncurve"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/ll1"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
 
     <ProgressBar
         android:id="@+id/progressBar2"

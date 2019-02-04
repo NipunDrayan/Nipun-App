@@ -11,9 +11,6 @@ import android.widget.TextView;
 
 import java.util.List;
 
-/**
- * Created by manvi on 04-01-2018.
- */
 public class TypesCorporateAdapter extends RecyclerView.Adapter<TypesCorporateAdapter.TypeCorporateViewHolder>
 
     {
@@ -50,35 +47,23 @@ public class TypesCorporateAdapter extends RecyclerView.Adapter<TypesCorporateAd
                 {
 
                     Intent intent=new Intent(nCtx,TabMainActivity.class);
-                    if(corporatevent.getTitle().equals("Startup Challenge")) {
+                    if(corporatevent.getTitle().equals("Monopoly")) {
                         intent.putExtra("index", 1);
                     }
                     if(corporatevent.getTitle().equals("B-plan")) {
                         intent.putExtra("index", 2);
                     }
-                    if(corporatevent.getTitle().equals("B-Quiz")) {
+                    if(corporatevent.getTitle().equals("Q-fiesta")) {
                         intent.putExtra("index", 3);
                     }
-                    if(corporatevent.getTitle().equals("BID IT!")) {
+                    if(corporatevent.getTitle().equals("Suicide Squad")) {
                         intent.putExtra("index", 4);
                     }
 
-                    if(corporatevent.getTitle().equals("Maestro")) {
+                    if(corporatevent.getTitle().equals("Your Story")) {
                         intent.putExtra("index", 5);
                     }
-                    if(corporatevent.getTitle().equals("Dropout")) {
-                        intent.putExtra("index", 6);
-                    }
-                    if(corporatevent.getTitle().equals("Your Story Video")) {
-                        intent.putExtra("index", 7);
-                    }
-                    if(corporatevent.getTitle().equals("Your Story Photo")) {
-                        intent.putExtra("index", 8);
-                    }
 
-                    if(corporatevent.getTitle().equals("Art Of Conquest")) {
-                        intent.putExtra("index", 9);
-                    }
 
                     nCtx.startActivity(intent);}
 

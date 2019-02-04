@@ -11,7 +11,7 @@ import java.util.Map;
  */
 public class Register_request extends StringRequest {
 
-    private static final String REGISTER_REQUEST_URL="http://endeavourkiet.in/app17/register.php";
+    private static final String REGISTER_REQUEST_URL="http://10.21.85.170:3000/apiadd";
     private Map<String,String> params;
 
     public Register_request(String name, int year, String branch, int rollno, String mobile, String college, String campus, String username, String password, Response.Listener<String> listener){
@@ -21,12 +21,12 @@ public class Register_request extends StringRequest {
         params.put("name", name);
         params.put("year", year + "");
         params.put("branch", branch);
-        params.put("rollno", rollno + "");
-        params.put("mobile", mobile);
-        params.put("college", college);
-        params.put("campus", campus);
-        params.put("username", username);
-        params.put("password", password);
+        params.put("universityno", rollno + "");
+        params.put("mobilenumber", mobile);
+        params.put("collage", college);
+        //params.put("campus", campus);
+        params.put("email", username);
+        params.put("pass", password);
     }
     @Override
     public Map<String,String> getParams(){

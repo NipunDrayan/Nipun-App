@@ -5,7 +5,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bck"
+    android:background="@drawable/a1"
     tools:context="com.example.android.endeavour.MainActivity"
     >
 
@@ -13,7 +13,7 @@
         android:id="@+id/my_toolbar1"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@color/colorPrimary"
+        android:background="@color/try1"
         android:elevation="4dp"
         android:theme="@style/AppTheme"
         />
@@ -84,8 +84,9 @@
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:layout_alignParentBottom="true"
-        app:itemBackground="@color/colorPrimary"
-        app:itemIconTint="@color/white"
+        app:itemBackground="@color/try1"
+
+        app:itemIconTint="@color/nav_color"
         app:itemTextColor="@color/white"
         app:menu="@menu/bottom_menu1"
         android:layout_gravity="bottom"/>

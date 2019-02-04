@@ -12,13 +12,6 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by manvi on 04-01-2018.
- */
-
-/**
- * Created by manvi on 04-01-2018.
- */
 public class FragStructure extends Fragment {
 
     public static FragStructure newInstance(int index) {
@@ -44,6 +37,7 @@ public class FragStructure extends Fragment {
         structure.add("Structure3");
         structure.add("Structure4");
         structure.add("Structure5");
+        structure.add("Structure6");
         Log.e("index7",structure.get(getArguments().getInt("index")));
 
         //Toast.makeText(getContext(),structure.get(getArguments().getInt("index")),Toast.LENGTH_LONG).show();
@@ -158,7 +152,7 @@ public class FragStructure extends Fragment {
                             "\n"+
                             "Round 2:\n"+
                             "\n" +
-                            " "+"- If you are good in videography then submit a short video of minimum 1.5 minutes. The last date for submitting is one week after the event. \n"+
+                            " "+"- If you are good in videography then submit a short video of minimum 2.5 minutes. The last date for submitting is one week after the event. \n"+
                             "\n");
         }
 

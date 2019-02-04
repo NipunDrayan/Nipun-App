@@ -13,9 +13,6 @@ import com.android.volley.toolbox.ImageLoader;
 
 import java.util.List;
 
-/**
- * Created by manvi on 09-01-2018.
- */
 public class ViewPagerAdapter extends PagerAdapter
 {
     private Context context;

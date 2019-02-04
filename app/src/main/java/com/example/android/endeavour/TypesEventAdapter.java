@@ -12,9 +12,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
-/**
- * Created by manvi on 04-01-2018.
- */
+
 public class TypesEventAdapter extends RecyclerView.Adapter<TypesEventAdapter.TypeEventViewHolder> {
 
 

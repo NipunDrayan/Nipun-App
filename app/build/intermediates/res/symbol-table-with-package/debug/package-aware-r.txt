@@ -798,11 +798,14 @@ drawable faqgrey
 drawable faqwhite
 drawable faqwhite_min
 drawable fb
+drawable fiesta
 drawable gmail_login
+drawable hack
 drawable hackathon_white
 drawable hackathonlogo
 drawable ic_account_balance_black_24dp
 drawable ic_contacts_black_24dp
+drawable ic_contacts_blue_24dp
 drawable ic_date_range_black_24dp
 drawable ic_equalizer_black_24dp
 drawable ic_error_black_24dp
@@ -810,12 +813,16 @@ drawable ic_keyboard_arrow_right_black_18dp
 drawable ic_launcher
 drawable ic_lock_black_24dp
 drawable ic_lock_open_white_18dp
+drawable ic_lock_outline_blue_24dp
 drawable ic_lock_outline_purple_24dp
 drawable ic_mail_outline_black_24dp
+drawable ic_mail_outline_blue_24dp
 drawable ic_mail_purple_24dp
 drawable ic_message_black_24dp
 drawable ic_notifications_black_18dp
 drawable ic_stay_primary_portrait_black_24dp
+drawable icon_mono
+drawable icon_suicide
 drawable info_white_18dp
 drawable insta
 drawable investment
@@ -857,6 +864,7 @@ drawable password_filled
 drawable password_orange
 drawable password_orange1
 drawable persongrey
+drawable planb
 drawable register
 drawable round
 drawable round1
@@ -884,6 +892,7 @@ drawable username
 drawable username1
 drawable year
 drawable year1
+drawable your
 drawable youtube
 id SliderDots
 id abt
