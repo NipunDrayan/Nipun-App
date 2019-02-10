@@ -121,7 +121,7 @@ public class Notifications extends AppCompatActivity implements Response.Listene
     @Override
     public void onResponse(String response)
     {
-        Log.d(TAG,response);
+      /*  Log.d(TAG,response);
 
         ArrayList<Product> productList = new JsonConverter<Product>().toArrayList(response,Product.class);
         BindDictionary<Product> dictionary = new BindDictionary<>();
@@ -147,7 +147,7 @@ public class Notifications extends AppCompatActivity implements Response.Listene
         list.setAdapter(adapter);
         progressDialog.dismiss();
 
-
+*/
     }
 
 

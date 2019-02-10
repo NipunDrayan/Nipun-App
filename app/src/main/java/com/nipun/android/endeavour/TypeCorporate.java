@@ -8,14 +8,14 @@ public class TypeCorporate
     private int id;
     private String title;
     private String price;
-    private int prize;
+   // private String prize;
     private int image;
 
-    public TypeCorporate(int id, String title, String price,int prize,int image) {
+    public TypeCorporate(int id, String title, String price,int image) {
         this.id = id;
         this.title = title;
         this.price=price;
-        this.prize=prize;
+       // this.prize=prize;
         this.image = image;
     }
 
@@ -33,6 +33,6 @@ public class TypeCorporate
         return image;
     }
 
-    public int getPrize(){ return prize;}
+  //  public String getPrize(){ return prize;}
 
 }

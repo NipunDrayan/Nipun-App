@@ -3,14 +3,39 @@ package com.example.android.endeavour;
 /**
  * Created by manvi on 28-01-2018.
  */
+import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
+
+import java.util.List;
 
 /**
  * Created by Himanshu Gupta on 12/22/2016.
  */
 public class Product
 {
-    @SerializedName("title")
+    @SerializedName("eventid")
+    @Expose
+    private List<Integer> eventid = null;
+    @SerializedName("paystatus")
+    @Expose
+    private List<Integer> paystatus = null;
+
+    public List<Integer> getEventid() {
+        return eventid;
+    }
+
+    public void setEventid(List<Integer> eventid) {
+        this.eventid = eventid;
+    }
+
+    public List<Integer> getPaystatus() {
+        return paystatus;
+    }
+
+    public void setPaystatus(List<Integer> paystatus) {
+        this.paystatus = paystatus;
+    }
+   /* @SerializedName("title")
     String title;
     @SerializedName("description")
     String description;
@@ -64,5 +89,5 @@ public class Product
 
     public void setPaystatus(String paystatus) {
         this.paystatus = paystatus;
-    }
+    }*/
 }

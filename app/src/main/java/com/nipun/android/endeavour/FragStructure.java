@@ -60,7 +60,7 @@ public class FragStructure extends Fragment {
                             "" + "- Game will be held on a gameboard made in volleyball ground.\n" +
                             " " + "-Every team will be given virtual cash.\n" +
                             " " + "- Every member will be participating in this round.\n" +
-                            " " + "- All  team members will be made to stand on the checkpoints.\n" +
+                            " " + "- All  team leaders will be made to stand on the checkpoints.\n" +
                             " " + "-The team members have to divide the given virtual cash in the way they make their strategy to play the game.\n" +
                             "" + "- The teams will roll the dice to  move forward on given blocks and buy the accessory they land on.\n" +
                             " " + "-Every accessory will have its particular strength depending on its need in office. \n" +
@@ -75,15 +75,20 @@ public class FragStructure extends Fragment {
         {
             view.setFitsSystemWindows(true);
             ((TextView) view.findViewById(R.id.textView))
-                    .setText("\n"+
-                            "Ideas are abound when you have the conviction to bring about a change around you.The flagship event, B PLAN, lets you promulgate your ground breaking ideas.Showcase your business skills and let the world see your entrepreneurial side.Gear up buddies.Prepare an abstract and show it and be a winner.\n"
+                    .setText("\n"+"B-PLAN-"+"\n"+
+                            "Ideas are abound when you have the conviction to bring about a change around you.The flagship event, B PLAN, lets you promulgate your ground breaking ideas.Showcase your business skills and let the world see your entrepreneurial side.Gear up buddies.Prepare an abstract and be a winner.\n"
                             +"\n"+
+                            "STARTUP GRINDx-" +"\n"+"Startup grindx is an actively working startup community linking entrepreneurs from around 140 countries all over the world and acting as a connecting platform for inspiring speakers who share their unbelievable experiences of the corporate world. Endeavour'19 is coming up with the astonishing speakers from the Ghaziabad chapter of Startup Grindx and will create a breathtaking environment motivating the gathering."+"\n\n"+
+                            "Fee for B-plan : Rs. 300"+"\n"+
+                            "Package- B-plan + Startup grindx : Rs. 550"+"\n"+
+                            "Individual for Startup grindx : Rs.150"+"\n"+
+
                             "1. Team Size - maximum 3 memebers\n" +
                             "2. The event consists of two rounds.\n"+
                             "\n"+
                             "Round 1 (Online Submission- Questionnaire Round:)\n"+
                             "\n"+
-                            " "+"-Participants will be given the portal on the website of Endeavour where they will have to fill up the questionnaire round which will consist of several subjective questions based on the different aspects of the startup. Last date of submission:- 20th feb'19\n"
+                            " "+"-Participants will be given a portal on the website of Endeavour where they will have to fill up the questionnaire round which will consist of several subjective questions based on the different aspects of the startup. Last date of submission:- 20th feb'19\n"
                             + "\n"+
                             "Round 2 Elevator pitching\n"+
                             "\n"+
@@ -144,13 +149,13 @@ public class FragStructure extends Fragment {
                             "\n"+
                             "2.There are two independent rounds in this event.\n"+
                             "\n"+
-                            "Round 1:\n"+
+                            "Sub-Round 1:\n"+
                             "\n"+
                             " "+"-The team has to observe the area near venues and click the photographs.\n"+
                             " "+"-The team has to give an article of 200-300 words regarding our e-summit including photographs.\n"+
                             " "+"-It will be an offline submit with articles and photographs on a paper.\n"+
                             "\n"+
-                            "Round 2:\n"+
+                            "Sub-Round 2:\n"+
                             "\n" +
                             " "+"- If you are good in videography then submit a short video of minimum 2.5 minutes. The last date for submitting is one week after the event. \n"+
                             "\n");

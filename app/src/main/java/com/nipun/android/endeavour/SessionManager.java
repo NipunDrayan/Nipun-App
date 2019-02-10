@@ -18,7 +18,7 @@ public class SessionManager {
 
     SharedPreferences.Editor editor;
     Context _context;
-
+MyEvents myEvents;
     // Shared pref mode
     int PRIVATE_MODE = 0;
 
@@ -42,6 +42,9 @@ public class SessionManager {
         pref = _context.getSharedPreferences(PREF_NAME, PRIVATE_MODE);
         editor = pref.edit();
     }
+
+
+
     public void createLoginSession(String name, String email,String userId,String unique_user_id)
     {
         // Storing login value as TRUE
@@ -61,6 +64,9 @@ public class SessionManager {
         editor.commit();
     }
 
+    public String getUserId(){
+        return pref.getString(SessionManager.KEY_UID,"");
+    }
     /**
      * Check login method wil check user login status
      * If false it will redirect user to login page

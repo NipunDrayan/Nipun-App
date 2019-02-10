@@ -11,6 +11,7 @@ import android.support.v7.app.AlertDialog;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
@@ -30,8 +31,8 @@ import org.json.JSONObject;
  */
 public class pop extends Activity {
 
-    private EditText inputName1, inputName2, inputName3, inputName4;
-    private TextInputLayout inputLayoutName1, inputLayoutName2, inputLayoutName3, inputLayoutName4;
+    private EditText inputName1, inputName2, inputName3;
+    private TextInputLayout inputLayoutName1, inputLayoutName2, inputLayoutName3;
     private Button btnSubmit;
     private ProgressBar progressBar;
     private Context mContext;
@@ -53,13 +54,13 @@ public class pop extends Activity {
         inputLayoutName1 = (TextInputLayout) findViewById(R.id.input_layout_name1);
         inputLayoutName2 = (TextInputLayout) findViewById(R.id.input_layout_name2);
         inputLayoutName3 = (TextInputLayout) findViewById(R.id.input_layout_name3);
-      //  inputLayoutName4 = (TextInputLayout) findViewById(R.id.input_layout_name4);
+        //  inputLayoutName4 = (TextInputLayout) findViewById(R.id.input_layout_name4);
         inputName1 = (EditText) findViewById(R.id.mem1);
         inputName2 = (EditText) findViewById(R.id.mem2);
         inputName3 = (EditText) findViewById(R.id.mem3);
         //inputName4 = (EditText) findViewById(R.id.mem4);
         intent = getIntent();
-         index = intent.getIntExtra("eventId", 0);
+        index = intent.getIntExtra("eventId", 0);
 
         btnSubmit = (Button) findViewById(R.id.submitid);
         progressBar = (ProgressBar) findViewById(R.id.progressBar2);
@@ -72,6 +73,7 @@ public class pop extends Activity {
         {
             inputName3.setEnabled(false);
             inputLayoutName3.setEnabled(false);
+
         }
 
         if(index==2)
@@ -115,7 +117,7 @@ public class pop extends Activity {
             inputLayoutName3.setEnabled(false);
         }
 
-        if(index==6)
+        if(index==5)
         {
             if(inputLayoutName2.getVisibility()==View.INVISIBLE)
             {
@@ -131,53 +133,7 @@ public class pop extends Activity {
             inputLayoutName3.setEnabled(false);
         }
 
-        if(index==7)
-        {
-            if(inputLayoutName2.getVisibility()==View.INVISIBLE)
-            {
-                inputLayoutName2.setVisibility(View.VISIBLE);
-            }
-            if(inputLayoutName3.getVisibility()==View.INVISIBLE)
-            {
-                inputLayoutName3.setVisibility(View.VISIBLE);
-            }
-            inputLayoutName2.setEnabled(false);
-            inputName2.setEnabled(false);
-            inputName3.setEnabled(false);
-            inputLayoutName3.setEnabled(false);
-        }
 
-        if(index==8)
-        {
-            if(inputLayoutName2.getVisibility()==View.INVISIBLE)
-            {
-                inputLayoutName2.setVisibility(View.VISIBLE);
-            }
-            if(inputLayoutName3.getVisibility()==View.INVISIBLE)
-            {
-                inputLayoutName3.setVisibility(View.VISIBLE);
-            }
-            inputLayoutName2.setEnabled(false);
-            inputName2.setEnabled(false);
-            inputName3.setEnabled(false);
-            inputLayoutName3.setEnabled(false);
-        }
-
-        if(index==9)
-        {
-            if(inputLayoutName2.getVisibility()==View.INVISIBLE)
-            {
-                inputLayoutName2.setVisibility(View.VISIBLE);
-            }
-            if(inputLayoutName3.getVisibility()==View.INVISIBLE)
-            {
-                inputLayoutName3.setVisibility(View.VISIBLE);
-            }
-            inputLayoutName2.setEnabled(false);
-            inputName2.setEnabled(false);
-            inputName3.setEnabled(false);
-            inputLayoutName3.setEnabled(false);
-        }
 
 
         btnSubmit.setOnClickListener(new View.OnClickListener() {
@@ -221,23 +177,28 @@ public class pop extends Activity {
         if (!validateid3()) {
             return;
         }*/
+Log.e("INSIDE SIUBMIT","sdfsdfsd");
 
         String mem1 = inputName1.getText().toString().trim();
         String mem2 = inputName2.getText().toString().trim();
         String mem3 = inputName3.getText().toString().trim();
-       // int mem4 = Integer.parseInt(inputName4.getText().toString().trim());
+        // int mem4 = Integer.parseInt(inputName4.getText().toString().trim());
 
         progressBar.setVisibility(View.VISIBLE);
-
-        String userId = intent.getStringExtra("userId");
+        String userId="",unique_user_id="";
+        userId = intent.getStringExtra("userId");
+        //unique_user_id=intent.getStringExtra("unique_user_id");
+        unique_user_id=new SessionManager(this).getUserId();
+        Log.d(unique_user_id,"head_id");
         //int index = intent.getIntExtra("eventId", 0);
         final String category = intent.getStringExtra("category");
         String campus = intent.getStringExtra("campus");
         int pay = intent.getIntExtra("pay", 0);
-
+Log.e("dfsdfsd","dfdssdf");
         if(index == 1)
         {
-            eventId = 7;
+            eventId = 1;
+            //mem2="";
             mem3="";
         }
 
@@ -245,6 +206,7 @@ public class pop extends Activity {
         {
             eventId = 2;
             mem3="";
+
         }
 
         if(index == 3)
@@ -255,42 +217,23 @@ public class pop extends Activity {
         }
         if(index == 4)
         {
+            eventId = 4;
+           mem2="";
+            mem3="";
+        }
+        if(index == 5)
+        {
             eventId = 5;
             mem2="";
             mem3="";
         }
-        if(index == 6)
-        {
-            eventId = 6;
-            mem2="";
-            mem3="";
-        }
 
-        if(index == 7)
-        {
-            eventId = 8;
-            mem2="";
-            mem3="";
-        }
 
-        if(index == 8)
-        {
-            eventId = 9;
-            mem2="";
-            mem3="";
-        }
-
-        if(index == 9)
-        {
-            eventId = 10;
-            mem2="";
-            mem3="";
-        }
 
         if(index == 10)
-            eventId = 1;
+            eventId = 6;
 
-
+Log.e("before response","sdfsd");
         Response.Listener<String> responseListener = new Response.Listener<String>() {
 
             @Override
@@ -301,6 +244,7 @@ public class pop extends Activity {
 
                     if (success)
                     {
+
                         if(category.equals("Corporate")) {
                             finish();
                             //startActivity(new Intent(pop.this, corporateActivity1.class));
@@ -309,7 +253,7 @@ public class pop extends Activity {
                             builder.setMessage("Successfully Registered")
                                     .setNegativeButton("Close", null)
                                     .create().show();
-                           // Toast.makeText(pop.this, "Successfully Submitted", Toast.LENGTH_LONG).show();
+                            // Toast.makeText(pop.this, "Successfully Submitted", Toast.LENGTH_LONG).show();
                         }
                         else if(category.equals("Hackathon"))
                         {
@@ -339,9 +283,22 @@ public class pop extends Activity {
                 }
             }
         };
-        EventRequest eventRequest = new EventRequest(userId, eventId, campus, mem1, mem2, mem3, responseListener);
+        if(mem1==null)
+            mem1="";
+        if(mem2==null)
+            mem2="";
+        if(mem3==null)
+            mem3="";
+        Log.e("after response","sdfds");
+        Log.e("details",String.valueOf(mem1));
+        Log.e("details1",String.valueOf(mem2.length()));
+        Log.e("details2",String.valueOf(mem3.length()));
+
+
+        EventRequest eventRequest = new EventRequest(unique_user_id, eventId, campus, mem1, mem2, mem3, responseListener);
         RequestQueue queue = Volley.newRequestQueue(pop.this);
         queue.add(eventRequest);
+        Log.e("after request","sdfdsf");
 
     }
 

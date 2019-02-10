@@ -1,16 +1,19 @@
 package com.example.android.endeavour;
 
+import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
+import com.android.volley.toolbox.ImageRequest;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.Volley;
 
@@ -26,20 +29,37 @@ import java.util.TimerTask;
 public class TedtalkMainActivity extends AppCompatActivity
 {
 
-    ViewPager viewPager;
-    RequestQueue rq;
-    List<SlideUtils> sliderImg;
-    ViewPagerAdapter viewPagerAdapter;
-    String request_url="http://endeavourkiet.in/app17/speakers.php";
-    LinearLayout sliderDotsPanel;
-    private int dotscount;
-    private ImageView [] dots;
+   // ViewPager viewPager;
+    //RequestQueue rq;
+   // List<SlideUtils> sliderImg;
+   // ViewPagerAdapter viewPagerAdapter;
+    String server_url="http://endeavourkiet.in/images/cos.png";
+   // LinearLayout sliderDotsPanel;
+  //  private int dotscount;
+     ImageView imageView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tedtalk_main);
+        setContentView(R.layout.speakers);
+        imageView=(ImageView)findViewById(R.id.imgserve);
+        ImageRequest imageRequest= new ImageRequest(server_url, new Response.Listener<Bitmap>() {
+            @Override
+            public void onResponse(Bitmap response) {
+                imageView.setImageBitmap(response);
 
-        rq= Volley.newRequestQueue(this);
+            }
+
+
+        }, 0, 0, ImageView.ScaleType.CENTER_CROP, null, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Toast.makeText(TedtalkMainActivity.this,"Network Issues",Toast.LENGTH_SHORT).show();
+                error.printStackTrace();
+            }
+        });
+        MySingleton.getInstance(TedtalkMainActivity.this).addToRequestQueue(imageRequest);
+
+       /* rq= Volley.newRequestQueue(this);
         sliderImg=new ArrayList<>();
 
         viewPager =(ViewPager)findViewById(R.id.viewpager);
@@ -141,6 +161,6 @@ public class TedtalkMainActivity extends AppCompatActivity
             }
         });
         rq.add(jsonArrayRequest);
+    }*/
     }
-
 }

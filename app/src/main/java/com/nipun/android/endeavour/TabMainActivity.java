@@ -193,7 +193,7 @@ private Context mContext;
             // Toast.makeText(mContext,userId,Toast.LENGTH_SHORT).show();
             // Toast.makeText(mContext,name,Toast.LENGTH_SHORT).show();
 
-            if (eventId == 5)
+            if (eventId == 7)
             {
                 Response.Listener<String> responseListener = new Response.Listener<String>() {
 
@@ -225,7 +225,7 @@ private Context mContext;
                         }
                     }
                 };
-                EventRequest eventRequest = new EventRequest(userId, 4, campus, "", "", "", responseListener);
+                EventRequest eventRequest = new EventRequest(userId, 7, campus, "", "", "", responseListener);
                 RequestQueue queue = Volley.newRequestQueue(mContext);
                 queue.add(eventRequest);
             }

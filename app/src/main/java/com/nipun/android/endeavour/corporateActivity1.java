@@ -65,27 +65,27 @@ public class corporateActivity1 extends AppCompatActivity
         corporateList.add(
                 new TypeCorporate(
                         1,
-                        "Monopoly","Rs.150/-",3000,R.drawable.icon_mono));
+                        "Monopoly","Rs.150/-",R.drawable.icon_mono));
 
         corporateList.add(
                 new TypeCorporate(
                         2,
-                        "B-plan","Rs.300/-",3000,R.drawable.planb));
+                        "B-plan","Rs.300/-",R.drawable.planb));
 
         corporateList.add(
                 new TypeCorporate(
                         3,
-                        "Q-fiesta","Rs.100/-",4000, R.drawable.fiesta));
+                        "Q-fiesta","Rs.150/-", R.drawable.fiesta));
 
         corporateList.add(
                 new TypeCorporate(
                         4,
-                        "Suicide Squad","Rs.300/-",7000, R.drawable.icon_suicide));
+                        "Suicide Squad","Rs.200/-", R.drawable.icon_suicide));
 
         corporateList.add(
                 new TypeCorporate(
                         5,
-                        "Your Story","Rs.200/-",2500, R.drawable.your));
+                        "Your Story","Rs.150/-", R.drawable.your));
 
 
 

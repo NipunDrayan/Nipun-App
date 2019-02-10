@@ -6,12 +6,10 @@ import com.android.volley.toolbox.StringRequest;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Created by manvi on 28-11-2017.
- */
+
 public class Register_request extends StringRequest {
 
-    private static final String REGISTER_REQUEST_URL="http://10.21.85.170:3000/apiadd";
+    private static final String REGISTER_REQUEST_URL="http://endeavourkiet.in/apiadd";
     private Map<String,String> params;
 
     public Register_request(String name, int year, String branch, int rollno, String mobile, String college, String campus, String username, String password, Response.Listener<String> listener){

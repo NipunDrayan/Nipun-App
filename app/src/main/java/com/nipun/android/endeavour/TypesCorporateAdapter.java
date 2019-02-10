@@ -72,7 +72,7 @@ public class TypesCorporateAdapter extends RecyclerView.Adapter<TypesCorporateAd
         //binding the data with the viewholder views
         holder.textViewTitle.setText(corporatevent.getTitle());
             holder.textViewPrice.setText(String.valueOf(corporatevent.getPrice()));
-            holder.textViewPrize.setText(String.valueOf(corporatevent.getPrize()));
+           // holder.textViewPrize.setText(String.valueOf(corporatevent.getPrize()));
         holder.imageView.setImageDrawable(nCtx.getResources().getDrawable(corporatevent.getImage()));
         }
 
@@ -96,7 +96,7 @@ public class TypesCorporateAdapter extends RecyclerView.Adapter<TypesCorporateAd
                 super(itemView);
                 textViewTitle = (TextView) itemView.findViewById(R.id.textViewTitle1);
                 textViewPrice = (TextView) itemView.findViewById(R.id.textViewPrice);
-                textViewPrize=(TextView) itemView.findViewById(R.id.textViewPrize);
+                //textViewPrize=(TextView) itemView.findViewById(R.id.textViewPrize);
                 imageView = (ImageView) itemView.findViewById(R.id.imageView1);
 
             }

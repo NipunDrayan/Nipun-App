@@ -12,7 +12,7 @@ import java.util.Map;
 
 public class ContactRequest extends StringRequest
 {
-    static final String CONTACT_REQUEST_URL = "http://endeavourkiet.in/app17/mail/send.php";
+    static final String CONTACT_REQUEST_URL = "http://endeavourkiet.in/apicontact";
     private Map<String, String> params;
 
     public ContactRequest(String sub,String from, String msg,Response.Listener<String> listener)

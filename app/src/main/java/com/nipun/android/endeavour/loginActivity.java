@@ -13,6 +13,7 @@ import android.support.v7.widget.Toolbar;
 import android.text.Editable;
 import android.text.TextUtils;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -190,6 +191,7 @@ public class loginActivity extends AppCompatActivity
                         String unique_user_id = jsonResponse.getString("unique_user_id");
                         finish();
                         session.setLogin(true);
+                        Log.e("USERID",unique_user_id);
                         session.createLoginSession(name,username,userId,unique_user_id);
 
                         Intent intent = new Intent(loginActivity.this, Main2Activity.class);

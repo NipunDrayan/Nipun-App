@@ -47,7 +47,7 @@ public class FragRules extends Fragment {
                             "2.No member will be allowed to leave the venue at the time of game round. \n"+
                             "3.Only round 1 qualifiers will participate in the game round and auction round.\n"+
                             "4.The team with the maximum strength will get the winning prize.\n"+
-                            "5.No participant is allowed to question the strength provided by us to the accessory\n");
+                            "5.No participant is allowed to question the strength provided by us to the accessories.\n");
         }
         if (getArguments().getInt("index")==2)
         {

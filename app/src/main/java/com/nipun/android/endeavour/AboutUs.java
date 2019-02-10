@@ -68,8 +68,8 @@ public class AboutUs extends Fragment {
             @Override
             public void onClick(View v)
             {
-                String scheme = "http://instagram.com/_u/endeavourkiet";
-                String path = "https://instagram.com/endeavourkiet";
+                String scheme = "http://instagram.com/_u/endeavour_2019";
+                String path = "https://instagram.com/endeavour_2019";
                 String nomPackageInfo = "com.instagram.android";
                 try {
                     getActivity().getPackageManager().getPackageInfo(nomPackageInfo, 0);
